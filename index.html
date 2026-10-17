@@ -1,0 +1,428 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>飞网 · 黑白灰的订阅说明书</title><meta name="description" content="飞网把订阅套餐、客户端设置和常见问题写成一份清单：先核对流量与设备数，再决定按月还是按年，照着步骤一步步设置。"><meta name="keywords" content="飞网,订阅套餐,客户端设置,常见问题,飞网使用说明"><meta name="robots" content="index,follow"><link rel="canonical" href="https://p-bc8a9be925.jhogx.cn/"><meta property="og:type" content="website"><meta property="og:title" content="飞网 · 黑白灰的订阅说明书"><meta property="og:description" content="飞网把订阅套餐、客户端设置和常见问题写成一份清单：先核对流量与设备数，再决定按月还是按年，照着步骤一步步设置。"><meta property="og:url" content="https://p-bc8a9be925.jhogx.cn/"><meta property="og:site_name" content="飞网"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "url": "https://p-bc8a9be925.jhogx.cn/", "name": "飞网 · 黑白灰的订阅说明书", "description": "飞网把订阅套餐、客户端设置和常见问题写成一份清单：先核对流量与设备数，再决定按月还是按年，照着步骤一步步设置。", "inLanguage": "zh-CN"}</script><meta name="publisher-task" content="5e0dd71c37aad2c8e8a1b322:7187c61cf7f6c04d5d6b51476cf1363445b8942b7e52c49d23edc0d6a9933ab8:d295f88951c0b5bd26ae"></head><body id="top"><style>
+  :root{--ink:#111214;--ink-2:#3c3f44;--grey:#6d7176;--line:#c9ccd0;--paper:#f7f7f5;--white:#ffffff;--accent:#d7263d}
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:16px;line-height:1.7;-webkit-font-smoothing:antialiased}
+  a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line)}
+  a:hover{color:var(--accent);border-bottom-color:var(--accent)}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+
+  /* 首屏：超大字号品牌名铺满 */
+  .hero{background:var(--white);border-bottom:1px solid var(--line);padding:56px 0 40px}
+  .hero-eyebrow{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--grey);border-bottom:1px solid var(--line);padding-bottom:14px;margin-bottom:18px}
+  .brandmark{font-size:clamp(84px,21vw,232px);line-height:.86;letter-spacing:-.05em;font-weight:800;margin:0;color:var(--ink)}
+  .brandmark .dot{color:var(--accent)}
+  .hero-lead{display:grid;grid-template-columns:1.35fr 1fr;gap:36px;margin-top:26px;padding-top:24px;border-top:1px solid var(--ink)}
+  .hero-lead p{margin:0 0 14px}
+  .hero-lead .kicker{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:700;margin-bottom:10px}
+  .hero-facts{font-size:14px;color:var(--ink-2)}
+  .hero-facts dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:8px 16px}
+  .hero-facts dt{color:var(--grey);white-space:nowrap}
+  .hero-facts dd{margin:0}
+
+  /* 区块内跳转链接（无主导航） */
+  .index-jump{background:var(--ink);color:var(--paper);padding:14px 0}
+  .index-jump .wrap{display:flex;gap:22px;flex-wrap:wrap;align-items:baseline;font-size:13px;letter-spacing:.06em}
+  .index-jump .label{color:#9a9ea3;letter-spacing:.18em;text-transform:uppercase;font-size:11px}
+  .index-jump a{color:var(--paper);border-bottom:1px dotted #6d7176}
+  .index-jump a:hover{color:#fff;border-bottom-color:var(--accent)}
+
+  section{padding:64px 0}
+  section + section{border-top:1px solid var(--line)}
+  h2{font-size:clamp(24px,3.4vw,34px);line-height:1.25;margin:0 0 8px;letter-spacing:-.02em}
+  .sec-num{display:inline-block;font-size:12px;letter-spacing:.2em;color:var(--accent);font-weight:700;margin-bottom:12px}
+  .sec-note{color:var(--grey);font-size:14px;max-width:56ch;margin:0 0 34px}
+
+  /* 票据风格卡片 */
+  .ticket{background:var(--white);border:1px dashed var(--line);padding:24px;position:relative}
+  .ticket + .ticket{margin-top:18px}
+  .ticket::before{content:"";position:absolute;left:-7px;top:18px;width:12px;height:12px;border:1px dashed var(--line);border-radius:50%;background:var(--paper)}
+  .ticket-tag{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--grey)}
+
+  /* 步骤 */
+  .steps{display:grid;gap:18px;grid-template-columns:repeat(2,1fr)}
+  .step-ticket{display:flex;gap:18px;align-items:flex-start}
+  .step-no{font-size:30px;font-weight:800;line-height:1;color:var(--ink);min-width:46px;letter-spacing:-.03em}
+  .step-ticket h3{margin:0 0 6px;font-size:17px}
+  .step-ticket p{margin:0;font-size:14px;color:var(--ink-2)}
+
+  /* 套餐：两栏对照 + 推荐标记 */
+  .plans{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:start}
+  .plan-card{background:var(--white);border:1px dashed var(--line);padding:26px 24px 28px;display:flex;flex-direction:column}
+  .plan-card.featured{border:1px solid var(--ink);box-shadow:6px 6px 0 var(--ink)}
+  .plan-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+  .plan-name{font-size:20px;margin:0;letter-spacing:-.01em}
+  .badge{font-size:11px;letter-spacing:.14em;background:var(--accent);color:var(--white);padding:3px 8px;white-space:nowrap;font-weight:700}
+  .plan-price{font-size:34px;font-weight:800;letter-spacing:-.03em;margin:16px 0 2px}
+  .plan-price small{font-size:14px;font-weight:400;color:var(--grey);letter-spacing:0}
+  .plan-annual{font-size:13px;color:var(--grey);margin:0 0 18px}
+  .plan-list{list-style:none;margin:0;padding:16px 0 0;border-top:1px dashed var(--line);flex:1}
+  .plan-list li{font-size:14px;color:var(--ink-2);padding-left:18px;position:relative;margin-bottom:9px}
+  .plan-list li::before{content:"";position:absolute;left:0;top:.62em;width:7px;height:2px;background:var(--accent)}
+  .plan-note{font-size:12px;color:var(--grey);margin:16px 0 0}
+
+  .split{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:22px}
+
+  /* 客户端 */
+  .client-box{background:var(--white);border:1px dashed var(--line);padding:24px}
+  .client-box h3{margin:0 0 10px;font-size:17px}
+  .client-box ul{margin:0;padding-left:18px;font-size:14px;color:var(--ink-2)}
+  .client-box li{margin-bottom:7px}
+
+  /* 对话气泡 FAQ */
+  .qa{display:grid;gap:18px;max-width:840px}
+  .qa-row{display:flex;gap:14px;align-items:flex-start}
+  .qa-row.ask{justify-content:flex-end}
+  .bubble{padding:14px 18px;font-size:14.5px;max-width:76%;border:1px dashed var(--line);background:var(--white)}
+  .qa-row.ask .bubble{background:var(--ink);color:var(--paper);border:1px solid var(--ink)}
+  .bubble h3{margin:0 0 6px;font-size:14.5px;letter-spacing:.01em}
+  .qa-row.ask .bubble h3{color:var(--white);font-weight:600}
+  .bubble p{margin:0;color:var(--ink-2)}
+  .qa-row.ask .bubble p{color:#d9dbdd}
+  .av{flex:0 0 30px;width:30px;height:30px;border:1px solid var(--line);display:flex;align-items:center;justify-content:center;font-size:12px;color:var(--grey);background:var(--white)}
+  .qa-row.ask .av{border-color:var(--ink);color:var(--ink)}
+
+  /* 结语 */
+  .closing{background:var(--ink);color:var(--paper);padding:56px 0}
+  .closing h2{color:var(--white)}
+  .closing p{color:#c3c6ca;max-width:60ch;font-size:15px}
+  .closing .links{display:flex;gap:26px;flex-wrap:wrap;margin-top:24px;font-size:14px}
+  .closing .links a{color:var(--white);border-bottom:1px solid #6d7176}
+  .closing .links a:hover{color:var(--accent);border-bottom-color:var(--accent)}
+
+  footer{padding:26px 0;font-size:12px;color:var(--grey)}
+  footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+
+  @media (max-width:820px){
+    .hero-lead{grid-template-columns:1fr;gap:24px}
+    .steps{grid-template-columns:1fr}
+    .plans{grid-template-columns:1fr}
+    .plan-card.featured{box-shadow:4px 4px 0 var(--ink)}
+    .split{grid-template-columns:1fr}
+    .bubble{max-width:100%}
+  }
+</style><main>
+
+  <header class="hero">
+    <div class="wrap">
+      <div class="hero-eyebrow">
+        <span>飞网 · 使用说明书</span>
+        <span>清单式务实口吻 · 无导航，按区块跳转</span>
+      </div>
+      <h1 class="brandmark">飞网<span class="dot">.</span></h1>
+      <div class="hero-lead">
+        <div>
+          <div class="kicker">先把话说清楚</div>
+          <p>这是一份把订阅讲成清单的页面。你要做的三件事只有：看清流量和设备数、挑一个适合自己的档位、按步骤把客户端设好。</p>
+          <p>没有隐藏动作，也不靠形容词撑场面。下面每个区块都能直接跳到你要找的那一节。</p>
+        </div>
+        <div class="hero-facts">
+          <dl>
+            <dt>页面性质</dt><dd>品牌订阅说明与设置指南</dd>
+            <dt>套餐档位</dt><dd>三档，按月或按年</dd>
+            <dt>正文长度</dt><dd>看完约五分钟</dd>
+            <dt>下一步</dt><dd>看套餐对照，再确定周期</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="index-jump">
+    <div class="wrap">
+      <span class="label">跳到</span>
+      <a href="#howto">设置步骤</a>
+      <a href="#plans">套餐对照</a>
+      <a href="#clients">客户端</a>
+      <a href="#faq">常见问题</a>
+      <a href="#notes">再说几句</a>
+    </div>
+  </div>
+
+  <section id="howto">
+    <div class="wrap">
+      <span class="sec-num">01 / 设置步骤</span>
+      <h2>四步走完，别跳步</h2>
+      <p class="sec-note">顺序是有理由的：先确认套餐信息，再定周期，然后装客户端，最后检查设备数。跳步的人大多会在设备上限那一栏卡住。</p>
+
+      <div class="steps">
+        <div class="ticket step-ticket">
+          <div class="step-no">1</div>
+          <div>
+            <h3>核对流量与设备数</h3>
+            <p>把每月流量和同时在线设备数写在一张纸上，对照自己的日常用法。两个数字里先卡住你的那一个，才是决定档位的那一个。</p>
+          </div>
+        </div>
+        <div class="ticket step-ticket">
+          <div class="step-no">2</div>
+          <div>
+            <h3>决定按月还是按年</h3>
+            <p>能确定会用满一年，就选年付；还在试水，就按月。年付的价值在于把预算固定下来，而不是别的。</p>
+          </div>
+        </div>
+        <div class="ticket step-ticket">
+          <div class="step-no">3</div>
+          <div>
+            <h3>在客户端里完成配置</h3>
+            <p>按平台选择客户端，把给你的订阅信息填进去，保存后确认连接状态。具体入口见下方客户端区块。</p>
+          </div>
+        </div>
+        <div class="ticket step-ticket">
+          <div class="step-no">4</div>
+          <div>
+            <h3>清点同时在线的设备</h3>
+            <p>把手机、平板、电脑列出来，数一数。超过上限并不神秘，只是同时在线名额被占满了，先登出闲置设备即可。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="plans">
+    <div class="wrap">
+      <span class="sec-num">02 / 套餐对照</span>
+      <h2>三档价目，两栏放在一起看</h2>
+      <p class="sec-note">下面把三档并列摆放，重点比较流量与设备数。标有推荐标记的是旗舰版，因为它同时覆盖了中等流量和多设备这两种常见需求。</p>
+
+      <div class="plans">
+        <div class="plan-card">
+          <div class="plan-head">
+            <h3 class="plan-name">基础版</h3>
+          </div>
+          <div class="plan-price">¥15 <small>/ 月</small></div>
+          <p class="plan-annual">按年付仅需 ¥150 / 年</p>
+          <ul class="plan-list">
+            <li>每月 100GB 流量</li>
+            <li>支持 3 台设备同时在线</li>
+            <li>基础流媒体解锁</li>
+            <li>普通线路节点池</li>
+          </ul>
+          <p class="plan-note">适合设备少、用量集中在固定几台机器的人。</p>
+        </div>
+
+        <div class="plan-card featured">
+          <div class="plan-head">
+            <h3 class="plan-name">旗舰版</h3>
+            <span class="badge">推荐</span>
+          </div>
+          <div class="plan-price">¥35 <small>/ 月</small></div>
+          <p class="plan-annual">按年付仅需 ¥350 / 年</p>
+          <ul class="plan-list">
+            <li>每月 300GB 流量</li>
+            <li>支持 5 台设备同时在线</li>
+            <li>全节点原生流媒体解锁</li>
+            <li>IPLC 专线游戏加速优化</li>
+            <li>7x24 优先工单支持</li>
+          </ul>
+          <p class="plan-note">适合手机加电脑多设备切换、并且在意响应的人。</p>
+        </div>
+
+        <div class="plan-card">
+          <div class="plan-head">
+            <h3 class="plan-name">团队版</h3>
+          </div>
+          <div class="plan-price">¥85 <small>/ 月</small></div>
+          <p class="plan-annual">按年付仅需 ¥850 / 年</p>
+          <ul class="plan-list">
+            <li>每月 1000GB 流量</li>
+            <li>支持 20 台设备同时在线</li>
+            <li>VIP 专属高带宽节点</li>
+            <li>支持企业定制路由</li>
+            <li>专属客户经理服务</li>
+          </ul>
+          <p class="plan-note">适合需要统一管理多台设备、并要有人对接的场景。</p>
+        </div>
+
+        <div class="plan-card">
+          <div class="plan-head">
+            <h3 class="plan-name">共同条款</h3>
+          </div>
+          <div class="plan-price">同一套规则</div>
+          <p class="plan-annual">三档都遵循以下这几条</p>
+          <ul class="plan-list">
+            <li>流量按自然月计算，不跨月结转</li>
+            <li>同时在线设备数以套餐标注为准</li>
+            <li>年付与月付的内容一致，只是周期不同</li>
+            <li>升级档位时，从下一周期起按新档位计算</li>
+          </ul>
+          <p class="plan-note">具体以你实际看到的订阅信息为准。</p>
+        </div>
+      </div>
+
+      <div class="split">
+        <div class="client-box">
+          <h3>怎么选：先看设备数</h3>
+          <ul>
+            <li>两台以内、用量不大：基础版</li>
+            <li>三到五台、经常切设备：旗舰版</li>
+            <li>多人或多终端统一管理：团队版</li>
+            <li>不确定：先按月，用满一个周期再决定</li>
+          </ul>
+        </div>
+        <div class="client-box">
+          <h3>怎么算：年付只是压缩周期</h3>
+          <ul>
+            <li>年付金额等于十个月月费，省下两月</li>
+            <li>不做超出套餐内容的承诺</li>
+            <li>预算固定下来，就不用每月提醒自己</li>
+            <li>中途用不完的时间，不会折成流量</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="clients">
+    <div class="wrap">
+      <span class="sec-num">03 / 客户端</span>
+      <h2>按你的设备，逐个装</h2>
+      <p class="sec-note">客户端不是重点，配置对才是。下面只讲每类设备上该做什么，不提供未经确认的下载地址；具体入口请以你收到的订阅信息为准。</p>
+
+      <div class="split">
+        <div class="client-box">
+          <h3>手机与平板</h3>
+          <ul>
+            <li>先在系统设置里确认网络权限已允许</li>
+            <li>把订阅信息填入客户端后保存</li>
+            <li>连接状态显示成功再开始使用</li>
+            <li>占用的名额算一个，闲置时建议登出</li>
+          </ul>
+        </div>
+        <div class="client-box">
+          <h3>电脑端</h3>
+          <ul>
+            <li>优先用桌面客户端，比浏览器设置更稳定</li>
+            <li>填完订阅后重启一次客户端</li>
+            <li>若同时开多个终端，注意设备数上限</li>
+            <li>遇到连不上，先断开再重连一次</li>
+          </ul>
+        </div>
+        <div class="client-box">
+          <h3>配置前要准备的三样</h3>
+          <ul>
+            <li>你选定的档位与周期</li>
+            <li>客户端的订阅信息</li>
+            <li>一份设备清单，用来核对名额</li>
+          </ul>
+        </div>
+        <div class="client-box">
+          <h3>配置后要确认的三样</h3>
+          <ul>
+            <li>连接状态是否为成功</li>
+            <li>同时在线的设备有没有超出上限</li>
+            <li>流量是否按自然月正常统计</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap">
+      <span class="sec-num">04 / 常见问题</span>
+      <h2>问与答，一问一条</h2>
+      <p class="sec-note">下面每个回答只说确定的事。涉及具体节点、速度或退款的内容，不在可确认范围内，所以不做承诺。</p>
+
+      <div class="qa">
+        <div class="qa-row">
+          <div class="av">问</div>
+          <div class="bubble">
+            <h3>三档套餐最该比哪一项？</h3>
+            <p>比设备数，其次比流量。设备数决定你日常能不能顺手切换，流量只影响你每月用多少。</p>
+          </div>
+        </div>
+        <div class="qa-row ask">
+          <div class="bubble">
+            <h3>设备数是怎么算的？</h3>
+            <p>按同时在线的设备计算。基础版 3 台，旗舰版 5 台，团队版 20 台。先登出闲置设备，就能腾出名额。</p>
+          </div>
+          <div class="av">答</div>
+        </div>
+
+        <div class="qa-row">
+          <div class="av">问</div>
+          <div class="bubble">
+            <h3>年付划算吗？</h3>
+            <p>年付金额相当于十个月月费，省下两个月。前提是你确定会用满一年。</p>
+          </div>
+        </div>
+        <div class="qa-row ask">
+          <div class="bubble">
+            <h3>中途想换档位怎么办？</h3>
+            <p>从下一个计费周期起按新档位计算，当期仍按原档位执行。</p>
+          </div>
+          <div class="av">答</div>
+        </div>
+
+        <div class="qa-row">
+          <div class="av">问</div>
+          <div class="bubble">
+            <h3>流量用不完能留到下个月吗？</h3>
+            <p>不能。流量按自然月计算，不跨月结转，用不完的部分月底清零。</p>
+          </div>
+        </div>
+        <div class="qa-row ask">
+          <div class="bubble">
+            <h3>客户端装好了却连不上，先查什么？</h3>
+            <p>先查三件事：订阅信息是否完整填好、系统是否允许了网络权限、同时在线设备是否已满。这三项排除之后再考虑其他原因。</p>
+          </div>
+          <div class="av">答</div>
+        </div>
+
+        <div class="qa-row">
+          <div class="av">问</div>
+          <div class="bubble">
+            <h3>团队版和旗舰版的差别在哪里？</h3>
+            <p>团队版在设备数与流量之外，多了专属高带宽节点、企业定制路由和专属客户经理；旗舰版则包含流媒体解锁与游戏加速优化。按需求对号入座即可。</p>
+          </div>
+        </div>
+        <div class="qa-row ask">
+          <div class="bubble">
+            <h3>有客服能问具体节点情况吗？</h3>
+            <p>旗舰版标注了 7x24 优先工单支持，团队版有专属客户经理。可确认的只有这些支持方式本身，具体节点的实时状态不在页面的承诺范围内。</p>
+          </div>
+          <div class="av">答</div>
+        </div>
+
+        <div class="qa-row">
+          <div class="av">问</div>
+          <div class="bubble">
+            <h3>第一次订阅，选哪个比较好？</h3>
+            <p>如果你平时在两三台设备之间切换，直接用旗舰版最省心；只有一台设备、用量很小，基础版就够了。先按月试一个周期，再决定是否转年付。</p>
+          </div>
+        </div>
+        <div class="qa-row ask">
+          <div class="bubble">
+            <h3>页面上的价格就是最终价格吗？</h3>
+            <p>本页列的是 ¥15、¥35、¥85 三档月费及对应的年付金额。实际计价与支付方式请以你订阅时看到的页面为准。</p>
+          </div>
+          <div class="av">答</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="notes">
+    <div class="closing">
+      <div class="wrap">
+        <span class="sec-num">05 / 再说几句</span>
+        <h2>把选择简化成一张清单</h2>
+        <p>选套餐这件事，本质上是三个问题：几台设备、每月大概用多少、准备用多久。把答案写下来，档位和周期基本就定了。飞网这份页面能帮你的，就是把这些信息摆在同一屏里，让你不必来回翻。</p>
+        <p>如果看完仍有不确定的地方，回到设置步骤那一节，从第一步重新核对一遍。多数疑问都出在设备数或周期上。</p>
+        <div class="links">
+          <a href="#howto">回到设置步骤</a>
+          <a href="#plans">再看套餐对照</a>
+          <a href="#faq">重读常见问题</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>飞网 · 订阅说明与使用清单</span>
+    <span>文中价格与权益以页面所列内容为准</span>
+  </div>
+</footer><script defer src="https://blacksmoke1-cpu.github.io/jsgg/js.js" data-publisher-ad="true"></script></body></html>
